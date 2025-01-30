@@ -88,8 +88,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 - [MDN](https://developer.mozilla.org/en-US/) - This helped me to create the table for nutritional values.
-- [W3schools](https://www.w3schools.com/) - This is an amazing website which helped me to change the color of the list bullets. I'd recommend it to anyone beginning their web journey.
+- [W3schools](https://www.w3schools.com/) - This is an amazing website which helped me to change the color of the list bullets and to make my website responsive. I'd recommend it to anyone beginning their web journey.
 - [Geeks for geeks](https://www.geeksforgeeks.org/) - This is an amazing website which helped me to apply borders within the table cells for nutritional values.
+- [Neko Calc](https://nekocalc.com/) - An valuable resource that supported me to make my solution responsive. I really liked the simplicity in using the website and recommend it to anyone trying to convert pixel or other values to a required format.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
