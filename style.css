@@ -12,7 +12,7 @@ body {
     justify-content: center;
     margin: 0;
     padding: 90px 0px;
-    background-color: hsl(329, 100%, 94%);
+    background-color: hsl(327, 100%, 96%);
 }
 
 .outer-container {
@@ -44,6 +44,7 @@ p {
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
+    color: rgb(83, 83, 83);
 }
 
 .prep-container {
@@ -73,7 +74,7 @@ li {
 
 .list li {
     padding: 10px 20px;
-    color: rgb(44, 44, 44);
+    color: rgb(83, 83, 83);
 }
 
 ul.meal-time li::marker {
@@ -122,6 +123,7 @@ table {
 
 td:nth-child(1) {
     font-weight: normal;
+    color: rgb(83, 83, 83);
 }
 
 td:nth-child(2) {
