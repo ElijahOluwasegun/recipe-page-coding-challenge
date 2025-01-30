@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
-    padding: 90px 0px;
+    padding: 5.625em 0em;
     background-color: hsl(327, 100%, 96%);
 }
 
@@ -19,20 +19,20 @@ body {
     display: flex;
     flex-direction: column;
     background-color: white;
-    width: 750px;
+    width: 55%;
     height: fit-content;
     border-radius: 19px;
-    padding: 40px;
+    padding: 2.5em;
 }
 
 img {
     width: 100%;
     border-radius: 7px;
-    margin-bottom: 15px;
+    margin-bottom: 0.938em;
 }
 
 h1 { 
-    margin: 15px 0px;
+    margin: 0.938em 0em;
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-style: normal;
@@ -43,14 +43,14 @@ p {
     font-family: "Outfit", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 1rem;
     color: rgb(83, 83, 83);
 }
 
 .prep-container {
-    margin-top: 5px;
-    margin-bottom: 30px;
-    padding: 10px 25px;
+    margin-top: 1.563em;
+    margin-bottom: 1.875em;
+    padding: 0.625em 1.563em;
     background-color: hsla(332, 100%, 88%, 0.164);
     border-radius: 5px;
 }
@@ -69,11 +69,11 @@ li {
 }
 
 .list {
-    padding: 10px 25px;
+    padding: 0.625em 1.563em;
 }
 
 .list li {
-    padding: 10px 20px;
+    padding: 0.625em 1.25em;
     color: rgb(83, 83, 83);
 }
 
@@ -90,8 +90,8 @@ h2 {
 }
 
 hr {
-    margin-top: 20px;
-    margin-bottom: 25px;
+    margin-top: 1.25em;
+    margin-bottom: 1.563em;
 }
 
 ul.meal-ingredients  li::marker {
@@ -105,19 +105,19 @@ ol.meal-instructions  li::marker {
 }
 
 .nutrition-paragraph {
-    margin-top: 20px;
+    margin-top: 1.25em;
 }
 
 table {
     border-collapse: collapse;
     border-style: hidden;
-    padding: 0px 30px;
+    padding: 0em 1.875em;
     font-family: "Outfit", serif;
     font-style: normal;
 }
  
  table td {
-    padding: 0.5rem;
+    padding: 0.5em;
     border-bottom: 1px solid black;
 }
 
@@ -132,11 +132,60 @@ td:nth-child(2) {
 }
 
 .attribution { 
-    margin-top: 20px;
-    font-size: 11px; 
+    margin-top: 1.25em;
+    font-size: 0.688rem; 
     text-align: center; 
 }
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 480px) {
+    .inner_div {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        gap: 1.25em;
+        margin-top: 3.125em;
+        padding-top: 0em;
+        background-color: rgb(255, 255, 255);
+        border: 0.75em;
+        border-radius: 1.25em;
+        width: 50%;
+        height: 85vh;
+    }
+
+    #qr_image, img {
+        display: flex;
+        margin-top: 0.450em;
+        margin-bottom: 0.3125em;
+        width: 89%;
+        height: 45vh; 
+        border-radius: 5%;
+    }
+    
+    .text1  {
+        display: flex;
+        font-family: "Outfit", sans-serif;
+        font-weight: 700;
+        font-size: 3.5vw;
+        color: rgb(8, 24, 85);
+        text-align: center;
+        padding: 0em 1.1em 0em 1.1em;
+        margin-left: 0em;
+        margin-right:0em;
+    }
+    .text2 {
+        display: flex;
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-size: 2.4vw;
+        color: rgba(0, 0, 0, 0.404);
+        text-align: center;
+        text-wrap: wrap;
+        margin-bottom: 3.02em;
+        padding: 0em 2.8em 0em 2.8em;
+    }
 }
