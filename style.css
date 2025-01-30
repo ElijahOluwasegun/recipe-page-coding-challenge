@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
-    padding: 0;
+    padding: 90px 0px;
     background-color: hsl(329, 100%, 94%);
 }
 
@@ -108,16 +108,17 @@ ol.meal-instructions  li::marker {
 }
 
 table {
+    border-collapse: collapse;
+    border-style: hidden;
     padding: 0px 30px;
     font-family: "Outfit", serif;
     font-style: normal;
 }
-
-/* 
-    border-bottom: 1px solid black;
- */
  
-
+ table td {
+    padding: 0.5rem;
+    border-bottom: 1px solid black;
+}
 
 td:nth-child(1) {
     font-weight: normal;
@@ -127,7 +128,6 @@ td:nth-child(2) {
     color: hsl(14, 45%, 36%);
     font-weight: 600;
 }
-
 
 .attribution { 
     margin-top: 20px;
