@@ -142,50 +142,39 @@ td:nth-child(2) {
 }
 
 @media (max-width: 480px) {
-    .inner_div {
+    body {
         display: flex;
         flex-direction: column;
-        justify-self: center;
+        min-height: 100vh;
         align-items: center;
-        gap: 1.25em;
-        margin-top: 3.125em;
-        padding-top: 0em;
-        background-color: rgb(255, 255, 255);
-        border: 0.75em;
-        border-radius: 1.25em;
-        width: 50%;
-        height: 85vh;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        /* padding: 5.625em 0em; */
+        background-color: hsl(327, 100%, 96%);
+    }
+    .outer-container {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        height: fit-content;
+        border-radius: 0px;
+        padding: 0em;
+        /* padding: 2.5em; */
     }
 
-    #qr_image, img {
-        display: flex;
-        margin-top: 0.450em;
-        margin-bottom: 0.3125em;
-        width: 89%;
-        height: 45vh; 
-        border-radius: 5%;
+    img {
+        width:100%;
+        border-radius: 0px;
     }
-    
-    .text1  {
-        display: flex;
-        font-family: "Outfit", sans-serif;
-        font-weight: 700;
-        font-size: 3.5vw;
-        color: rgb(8, 24, 85);
-        text-align: center;
-        padding: 0em 1.1em 0em 1.1em;
-        margin-left: 0em;
-        margin-right:0em;
-    }
-    .text2 {
-        display: flex;
-        font-family: "Outfit", sans-serif;
-        font-weight: 400;
-        font-size: 2.4vw;
-        color: rgba(0, 0, 0, 0.404);
-        text-align: center;
-        text-wrap: wrap;
-        margin-bottom: 3.02em;
-        padding: 0em 2.8em 0em 2.8em;
+
+    h1 {
+    margin: 0.238em 0em;
+    padding: 1em 1.25em;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8vw;
     }
 }
