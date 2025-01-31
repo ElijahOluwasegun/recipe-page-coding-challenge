@@ -39,7 +39,7 @@ h1 {
 }
 
 p {
-    margin-bottom: 25px;
+    margin-bottom: 1.563em;
     font-family: "Outfit", serif;
     font-weight: 400;
     font-style: normal;
@@ -170,11 +170,53 @@ td:nth-child(2) {
     }
 
     h1 {
-    margin: 0.238em 0em;
-    padding: 1em 1.25em;
-    font-family: "Young Serif", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 8vw;
+        margin: 0.238em 0em;
+        padding: 1em 1.25em;
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 8vw;
+        padding: 0.2em 1em;
+        line-height: 7vh;
     }
+
+    p {
+        margin-bottom: 1.563em;
+        font-family: "Outfit", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: rgb(83, 83, 83);
+        padding: 0.2em 8em 0.2em 2.5em;
+    }
+
+    .prep-container {
+        margin: 1.563em 8em 0.175em 2.5em;
+        padding: 1.125em 1.563em;
+        background-color: hsla(332, 100%, 88%, 0.164);
+        border-radius: 8px;
+    }
+
+    h2 {
+        margin: 1em 0em 0em 0em;
+        padding: 0em 1.8em;
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: hsl(14, 45%, 36%);
+    }
+
+    .list li {
+        margin: 0em 2.5em;
+        padding: 0.625em 1.25em;
+        color: rgb(83, 83, 83);
+    }
+    
+    hr {
+        margin-top: 1.25em;
+        margin-bottom: 0.563em;
+        margin-left: 3em;
+        width: 70%;
+    }
+    
 }
