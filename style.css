@@ -218,16 +218,18 @@ td:nth-child(2) {
         margin-left: 3em;
         width: 70%;
     }
+
     table {
         border-collapse: collapse;
         border-style: hidden;
+        margin: 0em 2em;
         padding: 0em 1.875em;
         font-family: "Outfit", serif;
         font-style: normal;
     }
      
      table td {
-        padding: 0.5em;
+        padding: 0.5em 5em;
         border-bottom: 1px solid black;
     }
 }
