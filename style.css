@@ -12,7 +12,7 @@ body {
     justify-content: center;
     margin: 0;
     padding: 5.625em 0em;
-    background-color: hsl(327, 100%, 96%);
+    background-color: hsl(30, 54%, 90%); 
 }
 
 .outer-container {
@@ -32,27 +32,36 @@ img {
 }
 
 h1 { 
-    margin: 0.938em 0em;
+    margin: 0.738em 0em;
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-style: normal;
 }
 
 p {
-    margin-bottom: 1.563em;
+    margin-bottom: 1.063em;
     font-family: "Outfit", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1rem;
-    color: rgb(83, 83, 83);
+    color: hsl(24, 5%, 18%);
 }
 
 .prep-container {
     margin-top: 1.563em;
     margin-bottom: 1.875em;
     padding: 0.625em 1.563em;
-    background-color: hsla(332, 100%, 88%, 0.164);
+    background-color: hsl(330, 100%, 98%);
     border-radius: 5px;
+}
+
+.meal-prep {
+    padding: 0.625em 1.563em;
+}
+
+.meal-prep li {
+    padding: 0.625em 1.25em;
+    color: hsl(30, 10%, 34%);
 }
 
 h3 {
@@ -74,10 +83,10 @@ li {
 
 .list li {
     padding: 0.625em 1.25em;
-    color: rgb(83, 83, 83);
+    color: hsl(30, 10%, 34%);
 }
 
-ul.meal-time li::marker {
+ul.meal-prep li::marker {
     color: hsl(332, 51%, 32%);
 
 }
@@ -116,14 +125,14 @@ table {
     font-style: normal;
 }
  
- table td {
+table td {
     padding: 0.5em;
     border-bottom: 1px solid black;
 }
 
 td:nth-child(1) {
     font-weight: normal;
-    color: rgb(83, 83, 83);
+    color: hsl(30, 10%, 34%);
 }
 
 td:nth-child(2) {
@@ -141,7 +150,7 @@ td:nth-child(2) {
     color: hsl(228, 45%, 44%); 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 375px) {
     body {
         display: flex;
         flex-direction: column;
@@ -151,16 +160,18 @@ td:nth-child(2) {
         margin: 0;
         padding: 0;
         /* padding: 5.625em 0em; */
-        background-color: hsl(327, 100%, 96%);
+        background-color: hsl(30, 54%, 90%); 
     }
+
     .outer-container {
         display: flex;
         flex-direction: column;
         background-color: white;
-        width: 100%;
+        width: fit-content;
         height: fit-content;
         border-radius: 0px;
         padding: 0em;
+        margin: 0em;
         /* padding: 2.5em; */
     }
 
@@ -175,9 +186,9 @@ td:nth-child(2) {
         font-family: "Young Serif", serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 8.6vh;
+        font-size: 6.5vh;
         padding: 0.2em 0.2em 0.2em 0.8em;;
-        line-height: 8vh;
+        line-height: 6.3vh;
     }
 
     p {
@@ -186,14 +197,14 @@ td:nth-child(2) {
         font-weight: 400;
         font-style: normal;
         font-size: 4.3vw;
-        color: rgb(83, 83, 83);
+        color: hsl(24, 5%, 18%);
         padding: 0.2em 1.8em 0.2em 2em;
     }
 
     .prep-container {
-        margin: 1.563em 2em 0.175em 2.5em;
+        margin: 1.563em 1.5em 0.175em 2em;
         padding: 1.125em 1.563em;
-        background-color: hsla(332, 100%, 88%, 0.164);
+        background-color: hsl(330, 100%, 98%);
         border-radius: 8px;
     }
 
@@ -206,30 +217,56 @@ td:nth-child(2) {
         color: hsl(14, 45%, 36%);
     }
 
+    .list {
+        margin: 0em 2.6em;
+        padding: 0.625em 0em 0.625em 1.563em;
+    }
+
     .list li {
-        margin: 0em 2.5em;
-        padding: 0.625em 1.25em;
-        color: rgb(83, 83, 83);
+        padding: 0.625em 0em 0.625em 1.2em;
+        color: hsl(30, 10%, 34%);
+    }
+
+    ol.meal-instructions {
+        margin: 0em;
+        padding: 0.625em 1.2em 0.625em 4em;
+        color: hsl(30, 10%, 34%);
     }
     
     hr {
         margin-top: 1.25em;
         margin-bottom: 0.563em;
         margin-left: 3em;
-        width: 70%;
+        width: 80%;
+    }
+
+    .nutrition-paragraph {
+        margin-top: 1.25em;
+        margin-left: 0.6em;
     }
 
     table {
         border-collapse: collapse;
         border-style: hidden;
-        margin: 0em 2em;
+        margin: 0em 2.6em 5em 2.6em;
         padding: 0em 1.875em;
         font-family: "Outfit", serif;
         font-style: normal;
     }
      
-     table td {
+     table, td {
         padding: 0.5em 5em;
+        width: 65%;
+    }
+
+    table td {
+        padding: 0.5em;
         border-bottom: 1px solid black;
+    }
+    
+    td:nth-child(2) {
+        color: hsl(14, 45%, 36%);
+        font-weight: 600;
+        text-align: left;
     }
 }
