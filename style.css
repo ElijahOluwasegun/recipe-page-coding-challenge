@@ -71,6 +71,10 @@ h3 {
     font-style: normal;
 }
 
+ul.meal-prep li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
 li {
     font-family: "Outfit", serif;
     font-weight: 400;
@@ -84,11 +88,6 @@ li {
 .list li {
     padding: 0.625em 1.25em;
     color: hsl(30, 10%, 34%);
-}
-
-ul.meal-prep li::marker {
-    color: hsl(332, 51%, 32%);
-
 }
 
 h2 {
