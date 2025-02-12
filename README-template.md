@@ -81,10 +81,6 @@ td:nth-child(2) {
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
 One of the concepts I would love to be comfortable with is the HTML and CSS table properties. During the course of this project, it was one of the areas that proved difficult to complete. I would also love to perfect my media queries as it relates to mobile responsiveness.
