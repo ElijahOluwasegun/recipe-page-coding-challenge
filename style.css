@@ -127,12 +127,12 @@ table {
  
 table td {
     padding: 0.5em;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
 }
 
 td:nth-child(1) {
     font-weight: normal;
-    color: hsl(30, 10%, 34%);
+    color: hsl(24, 5%, 18%);
 }
 
 td:nth-child(2) {
@@ -255,16 +255,22 @@ td:nth-child(2) {
     }
      
      table, td {
-        padding: 0.5em 5em;
-        width: 65%;
+        padding: 0.5em;
+        width: 83%;
     }
 
     table td {
-        padding: 0.5em;
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid hsl(30, 18%, 87%);
     }
     
+    td:nth-child(1) {
+        padding: 0.5em 0.5em 0.5em 2em;
+        font-weight: normal;
+        color: hsl(24, 5%, 18%);
+    }
+
     td:nth-child(2) {
+        padding: 0.5em 5.5em 0.5em 0em;
         color: hsl(14, 45%, 36%);
         font-weight: 600;
         text-align: left;
