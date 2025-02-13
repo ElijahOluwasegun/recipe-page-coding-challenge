@@ -55,6 +55,13 @@ p {
     border-radius: 5px;
 }
 
+h3 {
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
 .meal-prep {
     padding: 0.625em 1.563em;
 }
@@ -62,13 +69,6 @@ p {
 .meal-prep li {
     padding: 0.625em 1.25em;
     color: hsl(30, 10%, 34%);
-}
-
-h3 {
-    color: hsl(332, 51%, 32%);
-    font-family: "Outfit", serif;
-    font-weight: 600;
-    font-style: normal;
 }
 
 ul.meal-prep li::marker {
