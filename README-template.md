@@ -41,7 +41,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### What I learned
 
-One of my major learnings while working through this project is making use of two classes in a class. For example:
+During this project, I learned how to use multiple classes on a single HTML element, as shown below:
 
 ```html
 <ul class="list meal-ingredients"></ul>
@@ -67,7 +67,7 @@ ol.meal-instructions li::marker {
 }
 ```
 
-I also got to learn how the nth-child works, as seen here below:
+I also explored the nth-child selector for styling specific table columns:
 
 ```css
 td:nth-child(1) {
@@ -83,7 +83,7 @@ td:nth-child(2) {
 
 ### Continued development
 
-One of the concepts I would love to be comfortable with is the HTML and CSS table properties. During the course of this project, it was one of the areas that proved difficult to complete. I would also love to perfect my media queries as it relates to mobile responsiveness.
+I want to improve my understanding of HTML and CSS table properties, as they were challenging to work with in this project. Additionally, I aim to enhance my skills in writing effective media queries for better mobile responsiveness.
 
 ### Useful resources
 
