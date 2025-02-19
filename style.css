@@ -209,7 +209,7 @@ td:nth-child(2) {
 
     h2 {
         margin: 1em 0em 0em 0em;
-        padding: 0em 1.8em;
+        padding: 0em 1.4em;
         font-family: "Young Serif", serif;
         font-weight: 400;
         font-style: normal;
@@ -217,12 +217,13 @@ td:nth-child(2) {
     }
 
     .list {
-        margin: 0em 2.6em;
+        margin: 0em 2.1em;
         padding: 0.625em 0em 0.625em 1.563em;
     }
 
     .list li {
-        padding: 0.625em 0em 0.625em 1.2em;
+        margin: 0em 0em 0em 0em;
+        padding: 0.625em 0.5em 0.625em 1.2em;
         color: hsl(30, 10%, 34%);
     }
 
@@ -232,16 +233,21 @@ td:nth-child(2) {
         color: hsl(30, 10%, 34%);
     }
     
+    ol.meal-instructions li {
+        margin-left: -0.4em;
+    }
+
     hr {
         margin-top: 1.25em;
         margin-bottom: 0.563em;
-        margin-left: 3em;
+        margin-left: 2.2em;
         width: 80%;
     }
 
     .nutrition-paragraph {
         margin-top: 1.25em;
-        margin-left: 0.6em;
+        margin-left: 0em;
+        padding-right: 2em;
     }
 
     table {
@@ -263,13 +269,13 @@ td:nth-child(2) {
     }
     
     td:nth-child(1) {
-        padding: 0.5em 0.5em 0.5em 2em;
+        padding: 0.5em 0em 0.5em 1.5em;
         font-weight: normal;
         color: hsl(24, 5%, 18%);
     }
 
     td:nth-child(2) {
-        padding: 0.5em 5.5em 0.5em 0em;
+        padding: 0.5em 6.2em 0.5em 0em;
         color: hsl(14, 45%, 36%);
         font-weight: 600;
         text-align: left;
