@@ -158,7 +158,6 @@ td:nth-child(2) {
         justify-content: center;
         margin: 0;
         padding: 0;
-        /* padding: 5.625em 0em; */
         background-color: hsl(30, 54%, 90%); 
     }
 
@@ -171,7 +170,6 @@ td:nth-child(2) {
         border-radius: 0px;
         padding: 0em;
         margin: 0em;
-        /* padding: 2.5em; */
     }
 
     img {
