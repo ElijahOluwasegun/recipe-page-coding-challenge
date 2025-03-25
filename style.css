@@ -119,7 +119,7 @@ ol.meal-instructions  li::marker {
 
 }
 
-.nutrition-paragraph {
+.nutrition-description {
     margin-top: 1.25em;
 }
 
@@ -217,7 +217,7 @@ td:nth-child(2) {
     }
 
     h2 {
-        margin: 1em 0em 0em 0em;
+        margin: 1em 0em 0em;
         padding: 0em 1.4em;
         font-family: "Young Serif", serif;
         font-weight: 400;
@@ -231,7 +231,7 @@ td:nth-child(2) {
     }
 
     .list li {
-        margin: 0em 0em 0em 0em;
+        margin: 0em;
         padding: 0.625em 0.5em 0.625em 1.2em;
         color: hsl(30, 10%, 34%);
     }
@@ -253,7 +253,7 @@ td:nth-child(2) {
         width: 80%;
     }
 
-    .nutrition-paragraph {
+    .nutrition-description {
         margin-top: 1.25em;
         margin-left: 0em;
         padding-right: 2em;
@@ -262,7 +262,7 @@ td:nth-child(2) {
     table {
         border-collapse: collapse;
         border-style: hidden;
-        margin: 0em 2.6em 5em 2.6em;
+        margin: 0em 2.6em 5em;
         padding: 0em 1.875em;
         font-family: "Outfit", serif;
         font-style: normal;
