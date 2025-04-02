@@ -45,6 +45,15 @@ h1 {
     font-style: normal;
 }
 
+#recipe_title {
+    margin: 0.738em 0em;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 2.5rem;
+}
+
 p {
     margin-bottom: 1.063em;
     font-family: "Outfit", serif;
@@ -197,6 +206,18 @@ td:nth-child(2) {
         font-size: 6.5vh;
         padding: 0.2em 0.2em 0.2em 0.8em;;
         line-height: 6.3vh;
+    }
+
+    #recipe_title {
+        margin: 0.738em 0em;
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: black;
+        font-size: 2.2rem;
+        line-height: 2rem;
+        padding-left: 0.8em;
+        padding-right: 0em;
     }
 
     p {
