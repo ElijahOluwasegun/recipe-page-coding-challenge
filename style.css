@@ -167,14 +167,7 @@ td:nth-child(2) {
 
 @media (max-width: 375px) {
     body {
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
         padding: 0;
-        background-color: hsl(30, 54%, 90%); 
     }
 
     .title_challenge {
@@ -182,38 +175,24 @@ td:nth-child(2) {
     }
 
     .outer-container {
-        display: flex;
-        flex-direction: column;
-        background-color: white;
         width: fit-content;
-        height: fit-content;
         border-radius: 0px;
         padding: 0em;
         margin: 0em;
     }
 
     img {
-        width:100%;
         border-radius: 0px;
     }
 
     h1 {
         margin: 0.238em 0em;
-        padding: 1em 1.25em;
-        font-family: "Young Serif", serif;
-        font-weight: 400;
-        font-style: normal;
         font-size: 6.5vh;
         padding: 0.2em 0.2em 0.2em 0.8em;;
         line-height: 6.3vh;
     }
 
     #recipe_title {
-        margin: 0.738em 0em;
-        font-family: "Young Serif", serif;
-        font-weight: 400;
-        font-style: normal;
-        color: black;
         font-size: 2.2rem;
         line-height: 2rem;
         padding-left: 0.8em;
@@ -222,28 +201,19 @@ td:nth-child(2) {
 
     p {
         margin-bottom: 1.563em;
-        font-family: "Outfit", serif;
-        font-weight: 400;
-        font-style: normal;
         font-size: 4.3vw;
-        color: hsl(24, 5%, 18%);
         padding: 0.2em 1.8em 0.2em 2em;
     }
 
     .prep-container {
         margin: 1.563em 1.5em 0.175em 2em;
         padding: 1.125em 1.563em;
-        background-color: hsl(330, 100%, 98%);
         border-radius: 8px;
     }
 
     h2 {
         margin: 1em 0em 0em;
         padding: 0em 1.4em;
-        font-family: "Young Serif", serif;
-        font-weight: 400;
-        font-style: normal;
-        color: hsl(14, 45%, 36%);
     }
 
     .list {
@@ -254,7 +224,6 @@ td:nth-child(2) {
     .list li {
         margin: 0em;
         padding: 0.625em 0.5em 0.625em 1.2em;
-        color: hsl(30, 10%, 34%);
     }
 
     ol.meal-instructions {
@@ -268,14 +237,12 @@ td:nth-child(2) {
     }
 
     hr {
-        margin-top: 1.25em;
         margin-bottom: 0.563em;
         margin-left: 2.2em;
         width: 80%;
     }
 
     .nutrition-description {
-        margin-top: 1.25em;
         margin-left: 0em;
         padding-right: 2em;
     }
@@ -284,9 +251,6 @@ td:nth-child(2) {
         border-collapse: collapse;
         border-style: hidden;
         margin: 0em 2.6em 5em;
-        padding: 0em 1.875em;
-        font-family: "Outfit", serif;
-        font-style: normal;
     }
      
      table, td {
@@ -300,14 +264,10 @@ td:nth-child(2) {
     
     td:nth-child(1) {
         padding: 0.5em 0em 0.5em 1.5em;
-        font-weight: normal;
-        color: hsl(24, 5%, 18%);
     }
 
     td:nth-child(2) {
         padding: 0.5em 6.2em 0.5em 0em;
-        color: hsl(14, 45%, 36%);
-        font-weight: 600;
         text-align: left;
     }
 }
