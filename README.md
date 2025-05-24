@@ -20,10 +20,11 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![Desktop - version](./assets/images/desktop_solution.png)
-![Desktop - version](./assets/images/desktop_solution2.png)
-![Desktop - version](./assets/images/desktop_solution3.png)
-![Desktop - version](./assets/images/desktop_solution4.png)
+**Desktop Solution**
+![Desktop - version](./screenshot/screenshot_solution_desktop_version.png)
+
+**Mobile Version**
+![Mobile - version](./screenshot/screenshot_solution_mobile_version.png)
 
 ### Links
 
